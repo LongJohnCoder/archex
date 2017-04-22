@@ -61,7 +61,9 @@ owners. You must follow the [ARM trademark usage guidelines](http://www.arm.com/
 Copyright © 2017 ARM Limited or its affiliates. All rights reserved.
 
 ARM Limited. Company 02557590 registered in England.
+
 110 Fulbourn Road, Cambridge, England CB1 9NJ.
+
 LES-PRE-20327
 
 In this document, where the term ARM is used to refer to the
