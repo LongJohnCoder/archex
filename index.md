@@ -16,7 +16,7 @@ You can find the original XML file release [here](https://developer.arm.com/prod
 
 This is the 00bet3.1 release of the [ISA and System Register Architecture XMLs for ARMv8.2](https://developer.arm.com/products/architecture/a-profile/exploration-tools).
 
-The [Proprietary Notice](README.md) gives details of the terms and conditions under which these packages are provided.
+The [Proprietary Notice](//github.com/meriac/archex/blob/master/README.md) gives details of the terms and conditions under which these packages are provided.
 
 ### Change History
 
