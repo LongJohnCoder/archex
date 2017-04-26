@@ -1,9 +1,9 @@
 [submodule "A64_v82A_ISA"]
 	path = A64_v82A_ISA
-	url = git@github.com:meriac/A64_v82A_ISA.git
+	url = https://github.com/meriac/A64_v82A_ISA.git
 [submodule "AArch32_v82A_ISA"]
 	path = AArch32_v82A_ISA
-	url = git@github.com:meriac/AArch32_v82A_ISA.git
+	url = https://github.com/meriac/AArch32_v82A_ISA.git
 [submodule "ARMv82A-SysReg"]
 	path = ARMv82A-SysReg
-	url = git@github.com:meriac/ARMv82A-SysReg.git
+	url = https://github.com/meriac/ARMv82A-SysReg.git
