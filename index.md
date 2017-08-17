@@ -4,9 +4,9 @@
 
 [This GitHub repository](https://github.com/meriac/archex) contains the [ARM v8-A processor specification](https://static.docs.arm.com/ddi0487/b/DDI0487B_a_armv8_arm.pdf) in machine readable form. This specification describes almost all of the architecture: instructions, page table walks, taking interrupts, taking synchronous exceptions such as page faults, taking asynchronous exceptions such as bus faults, user mode, system mode, hypervisor mode, secure mode, debug mode. It details all the instruction formats and system register formats. The semantics is written in [ARM’s ASL Specification Language](https://alastairreid.github.io/specification_languages/) so it is all executable and has been tested very thoroughly using the same architecture conformance tests that ARM uses to test its processors.
 
-- The [System Register Specification](ARMv82A-SysReg/func_index.xml) consists of an XML file for each system register in the architecture. For each register, the XML details all the fields within the register, how to access the register and which privilege levels can access the register.
-- The [AArch64 Specification](A64_v82A_ISA/) consists of an XML file for each instruction in the 64-bit architecture. For each instruction, there is the encoding diagram for the instruction, ASL code for decoding the instruction, ASL code for executing the instruction and any supporting code needed to execute the instruction and the decode tree for finding the instruction corresponding to a given bit-pattern. This also contains the ASL code for the system architecture: page table walks, exceptions, debug, etc.
-- The [AArch32 Specification](AArch32_v82A_ISA/) is similar to the AArch64 specification: it contains encoding diagrams, decode trees, decode/execute ASL code and supporting ASL code.
+- The [System Register Specification](ARMv83A-SysReg/func_index.xml) consists of an XML file for each system register in the architecture. For each register, the XML details all the fields within the register, how to access the register and which privilege levels can access the register.
+- The [AArch64 Specification](A64_v83A_ISA/) consists of an XML file for each instruction in the 64-bit architecture. For each instruction, there is the encoding diagram for the instruction, ASL code for decoding the instruction, ASL code for executing the instruction and any supporting code needed to execute the instruction and the decode tree for finding the instruction corresponding to a given bit-pattern. This also contains the ASL code for the system architecture: page table walks, exceptions, debug, etc.
+- The [AArch32 Specification](AArch32_v83A_ISA/) is similar to the AArch64 specification: it contains encoding diagrams, decode trees, decode/execute ASL code and supporting ASL code.
 
 You can find more information on the ARM v8-A XML architecture specification on [Alastair Reid's web site](//alastairreid.github.io/ARM-v8a-xml-release/) and in his paper "[Trustworthy Specifications of ARM v8-A and v8-M System Level Architecture](//alastairreid.github.io/papers/fmcad2016-trustworthy.pdf)". You can [follow Alastair on Twitter](https://twitter.com/alastair_d_reid).
 
@@ -14,7 +14,7 @@ You can find the original XML file release [here](https://developer.arm.com/prod
 
 ## Release Notes
 
-This is the 00bet3.1 release of the [ISA and System Register Architecture XMLs for ARMv8.2](https://developer.arm.com/products/architecture/a-profile/exploration-tools).
+This is the 00bet4 release of the [ISA and System Register Architecture XMLs for ARMv8.3](https://developer.arm.com/products/architecture/a-profile/exploration-tools).
 
 The [Proprietary Notice](README.md) gives details of the terms and conditions under which these packages are provided.
 
@@ -33,7 +33,7 @@ This is the first Non-Confidential release of the XML.
 
 ### General
 
-A description within the [XML](ARMv82A-SysReg/func_index.xml) contains the following sections:
+A description within the [XML](ARMv83A-SysReg/func_index.xml) contains the following sections:
 
 - **Purpose**: A short description of the purpose of the register in the ARMv8 Architecture.
 - **Configuration**: How the register is architecturally mapped onto another System register or a memory-mapped register. If the configuration of the PE affects the implementation of the register, then information about this is also included here. This section also summarizes the behavior of the register on a reset.
